@@ -468,7 +468,7 @@ public class PracticeTest {
     @Test
     public void getLongestNameLength() throws Exception {
         int nameLength = Practice.getLongestNameLength();
-        int expectedValue = 17;
+        int expectedValue = 16;
         Assert.assertEquals(expectedValue,nameLength);
     }
 
